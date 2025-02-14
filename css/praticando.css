@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+    height: 100vh;
+}
+
+body{
+
+    display: flex; 
+    justify-content: center;	
+    align-items: center; 
+}
+
+.card{
+    width: 300px;
+    height: 330px;
+    border: 3px solid rgb(0, 0, 0); 
+    border-radius: 8px; 
+    background-color: aqua;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.profile-pic{
+    border-radius: 150px; 
+    width: 150px; 
+    height: 150px; 
+}
+    .name{
+    font-size: 20px;
+}
+.job-title{
+    font-size: 18px;
+}
+.description{
+    line-height: 15px; 
+    text-align: center; 
+    font-weight: bold; 
+}
+.contact-btn{
+    color: aliceblue;
+    background-color: rgb(43, 0, 100);
+    border: 0px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contact-btn:hover{ 
+    color: black;
+    background-color: #00ff9d ;
+    border: 0px solid;
+    border-radius: 5px;
+}
+
